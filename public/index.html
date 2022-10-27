@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="singin">войти</button> 
+        </nav>
+    </header>
+    <main>
+    <div class="app">
+        <div class="boards">
+            <div class="boards_item">
+                <span contenteditable="true" class="title">введите название</span>
+                <div class="list">
+                    <div class="list_item" draggable="true">стартовая карточка</div>
+                </div>
+                <div class="form">
+                    <textarea class="textarea" placeholder="введите название карточки"></textarea>
+                    <div class="buttons">
+                        <button class="add_item_btn">добавить карточку</button>
+                        <button class="cancel_item_btn">отмена</button>
+                    </div>
+                </div>
+                
+                <div class="add_btn">
+                    <span>+</span> добавить карточку
+                </div>
+
+            </div>
+        </div>
+        <div class="button">Добавить доску</div>
+    </div>
+    </main>
+    <footer></footer>
+    <script src="/app.js"></script>
+</body>
+</html>
